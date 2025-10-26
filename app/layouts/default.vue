@@ -14,7 +14,6 @@
             </NuxtLink>
         </div>
     </header>
-    <div class="w-full h-[484px] bg-[#C4C4C4]"></div>
 
   <main>
     <slot />

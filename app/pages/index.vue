@@ -4,12 +4,14 @@
     import TolstText from '~/components/TolstText.vue'
 
     import Polosa from '~/components/Polosa.vue'
+
+    import tablik from '~/components/tablik.vue'
 </script>
 
 <template>
-    <Block>головна</Block>
+    <Block>HOME</Block>
 
-    <div class="w-full h-[526px] flex items-center justify-center">
+    <tablik>
         <div class="w-[996px] h-[301px] flex">
             <img src="/ico1.png" alt="ico1">
             <div class="w-full h-full">
@@ -23,9 +25,9 @@
                 </p>
             </div>
         </div>
-    </div>
+    </tablik>
 
-    <div class="w-full h-[526px] flex items-center justify-center">
+    <tablik>
         <div class="w-[996px] h-[335px] flex">
             <div class="w-full h-full">
                 <TolstText class="w-[608px] mt-[60px] text-[48px]">WHY?</TolstText>
@@ -33,24 +35,36 @@
                 Instagram and Facebook filters, without a doubt, add a creative touch to your stories, surprising and enchanting your followers. But they are also an excellent tool for brand positioning and establishing yourself on social media.
                 </p>
             </div>
-            <Polosa class="w-[171px] h-full bg-[#C4C4C4]"></Polosa>
+            <Polosa></Polosa>
         </div>
-    </div>
+    </tablik>
 
-    <div class="w-full h-[526px] flex items-center justify-center">
+    <tablik>
         <div class="w-[996px] h-[335px] flex">
-            <Polosa class="w-[171px] h-full bg-[#C4C4C4]"></Polosa>
+            <Polosa></Polosa>
             <div class="w-full h-full">
-                <TolstText class="w-[608px] mt-[60px] ml-[180px] text-[48px]">Marketing AR DATA</TolstText>
-                <p class="w-[568px] mt-[22px] ml-[180px] text-[18px]">
+                <TolstText class="ml-auto w-[568px] mt-[60px] text-[48px]">Marketing AR DATA</TolstText>
+                <p class="ml-auto w-[568px] mt-[22px] text-[18px]">
                 Augmented Reality experiences have a 94% higher conversion rate. Users connect 30% more with a brand through AR Advertising. 3 out of 4 users would pay more for a product if they see it in a Virtual 
                 Try-On. (According to the latest study by Deloitte & Snap Inc.)
                 </p>
             </div>
         </div>
-    </div>
+    </tablik>
 
     <div class="w-full h-[147px] flex justify-center">
         <TolstText class="text-[24px]">Know our options</TolstText>
     </div>
+
+    <div class="w-full h-[410px] bg-[#C4C4C4] flex justify-center items-center flex-col">
+        <TolstText class="text-[48px] text-[#000000] mb-[40px]">OUR CLIENTS SAY</TolstText>
+        <img class="w-[132px] h-[139px]" src="/ico2.png" alt="ico">
+        <p class="mt-[27px]">“Awesome job, it boosted my reach”</p>
+    </div>
 </template>
+
+
+
+
+
+
